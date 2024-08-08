@@ -1,0 +1,138 @@
+/* Register.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-right: 10px;
+}
+
+.home-nav-list {
+  display: flex;
+  justify-content: space-between;
+  color: #007bff;
+  font-size: large;
+}
+
+.home-nav {
+  display: flex;
+  justify-content: space-between;
+  color: #007bff;
+}
+.home-nav-link:hover {
+  color: gold;
+  box-shadow: inset 100px 0 0 0 black;
+  transition: 0.5s;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 2px solid darkorange;
+}
+
+.home-nav-link {
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home-nav-linkRegister{
+  padding: 10px;
+  color: gold;
+  border-radius: 15px;
+  box-shadow: inset 100px 0 0 0 black;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.register-title {
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 1200px;
+}
+
+.register-form {
+  width: 600px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #0056b3;
+}

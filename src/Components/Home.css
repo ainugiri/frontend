@@ -1,0 +1,79 @@
+/* /c:/reactapps/mentoring/frontend/src/Components/Home.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #666;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-right: 10px;
+}
+
+.home-nav-list {
+    display: flex;
+    justify-content: space-between;
+    color: #007bff;
+    font-size: large;
+}
+
+.home-nav {
+    display: flex;
+    justify-content: space-between;
+    color: #007bff;
+}
+.home-nav-link:hover {
+    color: gold;
+    box-shadow: inset 100px 0 0 0 black;
+    transition: 0.5s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid darkorange;
+}
+
+.home-nav-link {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}

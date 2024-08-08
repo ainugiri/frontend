@@ -1,0 +1,158 @@
+/* /c:/reactapps/mentoring/frontend/src/Components/Home.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-right: 10px;
+}
+
+.home-nav-list {
+  display: flex;
+  justify-content: space-between;
+  color: #007bff;
+  font-size: large;
+}
+
+.home-nav {
+  display: flex;
+  justify-content: space-between;
+  color: #007bff;
+}
+.home-nav-link:hover {
+  color: gold;
+  box-shadow: inset 100px 0 0 0 black;
+  transition: 0.5s;
+}
+.home-nav-linklogin{
+  padding: 10px;
+  color: gold;
+  border-radius: 15px;
+  box-shadow: inset 100px 0 0 0 black;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 2px solid darkorange;
+}
+
+.home-nav-link {
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mainContainer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 1200px;
+  }
+  
+  .resultContainer,
+  .historyItem {
+    flex-direction: row;
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .historyContainer {
+    flex-direction: column;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    flex-grow: 5;
+    justify-content: flex-start;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .inputContainer > .errorLabel {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .inputBox {
+    height: 48px;
+    width: 400px;
+    font-size: large;
+    border-radius: 8px;
+    border: 1px solid grey;
+    padding-left: 8px;
+  }
+
+  .btnFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
